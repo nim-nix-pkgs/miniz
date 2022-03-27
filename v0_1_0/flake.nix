@@ -11,6 +11,7 @@
   inputs.src-miniz-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-miniz-v0_1_0.owner = "treeform";
   inputs.src-miniz-v0_1_0.repo  = "miniz";
+  inputs.src-miniz-v0_1_0.dir   = "";
   inputs.src-miniz-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
